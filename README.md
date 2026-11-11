@@ -58,35 +58,35 @@ The main menu provides access to record management, enrollment and grading, sear
 
 The system allows users to add student records and prevents duplicate student IDs.
 
-![Student Record Creation](screenshots/studentadd.png)
+![Student Record Creation](studentadd.png)
 
 Student records can also be retrieved and displayed.
 
-![Student Record View](screenshots/studentview.png)
+![Student Record View](studentview.png)
 
 ### 3. Custom Merge Sort
 
 The program uses a custom implementation of Merge Sort to organize student records alphabetically by name.
 
-![Student Sorting](screenshots/Studentsortbyname.png)
+![Student Sorting](Studentsortbyname.png)
 
 ### 4. Recursive Binary Search
 
 The program implements recursive binary search to locate students by ID. The screenshot demonstrates both successful and unsuccessful searches.
 
-![Recursive Binary Search](screenshots/finding%20studentrecursive.png)
+![Recursive Binary Search](finding%20studentrecursive.png)
 
 ### 5. Enrollment and Grading
 
 Students can enroll in courses and receive grades. The program automatically recalculates the cumulative GPA after a grade is entered or updated.
 
-![Enrollment and Grading](screenshots/enrollmentandgrading.png)
+![Enrollment and Grading](enrollmentandgrading.png)
 
 ### 6. Academic Transcript
 
 The system generates academic transcripts containing student information, completed courses, grades, and cumulative GPA.
 
-![Student Transcript](screenshots/transcript.png)
+![Student Transcript](transcript.png)
 
 ### Programming Concepts Demonstrated
 

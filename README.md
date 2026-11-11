@@ -38,7 +38,7 @@ To run on Windows PowerShell: `.\AcademicSystem.exe`
 Keep `academic_data.txt` in the working directory. Modifications save automatically, with `.tmp` and `.bak` created at runtime. Do not commit generated backups, executables or real student data.
 
 ## UML diagrams
-- [UMLClass Diagram](UMLClass.drawio.png)
+- [UMLClass Diagram](UMLClass.drawioo.png)
 - [UML Activity Diagram](UMLActivity.drawio.png)
 
 

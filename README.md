@@ -31,7 +31,7 @@ From the repository directory (MinGW GCC 6.3-compatible; no `<filesystem>`):
 g++ -std=c++17 -Wall -Wextra -Wpedantic main.cpp Person.cpp Student.cpp Instructor.cpp Course.cpp Enrollment.cpp HashTable.cpp AcademicSystem.cpp -o AcademicSystem.exe
 ```
 
-To run on Windows PowerShell: `\.\AcademicSystem.exe` 
+To run on Windows PowerShell: `.\AcademicSystem.exe` 
 
 
 

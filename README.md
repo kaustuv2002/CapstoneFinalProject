@@ -52,7 +52,7 @@ The following screenshots demonstrate the functionality of the Academic Informat
 
 The main menu provides access to record management, enrollment and grading, searching and sorting, and academic reports.
 
-![Main Menu](screenshots/mainmenu.png)
+![Main Menu](mainmenu.png)
 
 ### 2. Student Record Management
 

@@ -38,8 +38,8 @@ To run on Windows PowerShell: `\.\AcademicSystem.exe`
 Keep `academic_data.txt` in the working directory. Modifications save automatically, with `.tmp` and `.bak` created at runtime. Do not commit generated backups, executables or real student data.
 
 ## UML diagrams
-- `UMLClass.png`: classes, attributes, operations, inheritance and relationships
-- `UMLActivity.png`: actual main menu and submenu workflows
+- [UMLClass Diagram](UMLClass.drawio.png)
+- [UML Activity Diagram](UMLActivity.drawio.png)
 
 ## Improvements and compatibility
 - **Course retakes across terms:** Give each course offering a distinct code, e.g. `CSC101-F26` and `CSC101-S27`. Each is a separate Course record with its own term, so a student may enroll in both. The system does **not** automatically group these offerings under a shared catalog course; the original UML and data format are unchanged.
@@ -58,14 +58,4 @@ Keep `academic_data.txt` in the working directory. Modifications save automatica
 
 
 
-## M4 code standards update (November 2026)
-- Every C++ source/header file includes an author, file purpose, and project header.
-- `Enrollment` is now an encapsulated class with private fields, accessors, and an `updateGrade` method.
-- Major controller operations have explanatory function comments.
-- Compiled using `g++ -std=c++17 -Wall -Wextra -pedantic *.cpp -o AcademicSystem` with no warnings in the test environment.
-- Smoke-tested startup, invalid menu choices, lookup, custom sorting, reports, duplicate/missing enrollments, invalid grades, grade updates/reset, and invalid date entry using isolated sample-data copies.
-- Testing is not exhaustive: verify on Windows and test additional save/recovery and record dependency scenarios before submission.
-- Independent recursion uses binary search over a sorted student ID collection (not a simple traversal); instructor has final authority on whether it qualifies.
 
-## M4 validation
-The independent recursion is a recursive binary search (Find & Browse option 7), distinct from Merge Sort. See `M4_Test_Results.txt` for tested success and error cases. The corrupt-file test intentionally exits with an error rather than silently discarding data.
